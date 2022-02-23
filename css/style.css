@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background: url("../assets/images/bg-pattern-top-desktop.svg") no-repeat;
+  min-height: 100vh;
+}
+main {
+  background: url("../assets/images/bg-pattern-bottom-desktop.svg") no-repeat;
+  background-size: cover;
+  background-position: 25% -120%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-upside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.title-up {
+  max-width: 500px;
+}
+
+.title-up h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: hsl(300, 43%, 22%);
+}
+
+.title-up p {
+  line-height: 25px;
+  color: hsl(300, 43%, 22%);
+}
+
+.cards-star {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: hsl(300, 43%, 22%);
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.card-icon-star {
+  padding-right: 40px;
+}
+.cards-star:nth-child(1) {
+  margin-left: -30px;
+}
+.cards-star:nth-child(2) {
+  margin-left: 10px;
+}
+.cards-star:nth-child(3) {
+  margin-left: 50px;
+}
+
+.content-downside {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.downside-quote-card {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.card-profile {
+  width: 25vw;
+  height: 28vh;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: hsl(300, 43%, 22%);
+  color: #fff;
+  font-size: 0.875rem;
+  border-radius: 20px;
+}
+.quote-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+.quote-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.name-tag {
+  line-height: 25px;
+}
+
+.name-tag p {
+  font-weight: 700;
+}
+.name-tag span {
+  color: hsl(333, 53%, 66%);
+}
+.quote-body p {
+  font-size: 0.75rem;
+  line-height: 25px;
+  align-items: center;
+}
+.card-profile-irene {
+  margin-top: 30px;
+}
+.card-profile-anne {
+  margin-top: 60px;
+}
